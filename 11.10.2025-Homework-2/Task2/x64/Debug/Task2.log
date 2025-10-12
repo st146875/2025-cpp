@@ -1,10 +1,2 @@
 ﻿  Task2.cpp
-C:\Users\lenovo\Desktop\2025-cpp\11.10.2025-Homework-2\Task2\Task2.cpp(6,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-      C:\Users\lenovo\Desktop\2025-cpp\11.10.2025-Homework-2\Task2\Task2.cpp(6,10):
-      заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-      C:\Users\lenovo\Desktop\2025-cpp\11.10.2025-Homework-2\Task2\Task2.cpp(6,10):
-      отсутствующий вариативный аргумент "2" требуется для строки форматирования "%6s"
-      C:\Users\lenovo\Desktop\2025-cpp\11.10.2025-Homework-2\Task2\Task2.cpp(6,10):
-      этот аргумент используется в качестве размера буфера
-  
   Task2.vcxproj -> C:\Users\lenovo\Desktop\2025-cpp\11.10.2025-Homework-2\x64\Debug\Task2.exe

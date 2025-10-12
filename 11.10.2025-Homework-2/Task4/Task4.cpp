@@ -1,42 +1,47 @@
 ﻿#include<cstdio>
-#include<algorithm>
 
 int main(int argc, char** argv) 
 {
-    int A1 = 0;
-    int A2 = 0;
-    int B1 = 0;
-    int B2 = 0;
-    int C1 = 0;
-    int C2 = 0;
+    int a1 = 0;
+    int a2 = 0;
+    int b1 = 0;
+    int b2 = 0;
+    int c1 = 0;
+    int c2 = 0;
 
-    scanf_s("%d %d %d", &A1, &B1, &C1);
-    scanf_s("%d %d %d", &A2, &B2, &C2);
+    scanf_s("%d %d %d", &a1, &b1, &c1);
+    scanf_s("%d %d %d", &a2, &b2, &c2);
 
-    int box1[3] = { A1, B1, C1 };
-    int box2[3] = { A2, B2, C2 };
+    int fill1in2 = 0;
+    int fill2in1 = 0;
 
-    std::sort(box1, box1 + 3);
-    std::sort(box2, box2 + 3);
-    if (box1[0] == box2[0] && box1[1] == box2[1] && box1[2] == box2[2]) {
-        printf("Boxes are equal\n");
-        return 0;
+    if ((a1 <= a2 && b1 <= b2 && c1 <= c2)||
+        (a1 <= a2 && b1 <= c2 && c1 <= b2)||
+        (a1 <= b2 && b1 <= a2 && c1 <= c2)||
+        (a1 <= b2 && b1 <= c2 && c1 <= a2)||
+        (a1 <= c2 && b1 <= a2 && c1 <= b2)||
+        (a1 <= c2 && b1 <= b2 && c1 <= a2)) {
+        fill1in2 = 1;
     }
-
-    bool first_in_second = (box1[0] <= box2[0] && box1[1] <= box2[1] && box1[2] <= box2[2]) &&
-        (box1[0] < box2[0] || box1[1] < box2[1] || box1[2] < box2[2]);
-
-    bool second_in_first = (box2[0] <= box1[0] && box2[1] <= box1[1] && box2[2] <= box1[2]) &&
-        (box2[0] < box1[0] || box2[1] < box1[1] || box2[2] < box1[2]);
-
-    if (first_in_second) {
-        printf("The first box is smaller than the second one\n");
+    if ((a2 <= a1 && b2 <= b1 && c2 <= c1)||
+        (a2 <= a1 && b2 <= c1 && c2 <= b1)||
+        (a2 <= b1 && b2 <= a1 && c2 <= c1)||
+        (a2 <= b1 && b2 <= c1 && c2 <= a1)||
+        (a2 <= c1 && b2 <= a1 && c2 <= b1)||
+        (a2 <= c1 && b2 <= b1 && c2 <= a1)) {
+        fill2in1 = 1;
     }
-    else if (second_in_first) {
-        printf("The first box is larger than the second one\n");
+    if (fill1in2 && fill2in1) {
+        printf("Boxes are equal");
+    }
+    else if (fill1in2) {
+        printf("The first box is smaller than the second one");
+    }
+    else if (fill2in1) {
+        printf("The first box is larger than the second one");
     }
     else {
-        printf("Boxes are incomparable\n");
+        printf("Boxes are incomparable");
     }
 
     return 0;
