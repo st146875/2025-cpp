@@ -50,9 +50,7 @@ int main(int argc, char** argv)
         double sqrtD = sqrt((double)D);
         double x1 = (-(double)b + sqrtD) / (2 * a);
         double x2 = (-(double)b - sqrtD) / (2 * a);
-        printf("2\n");
-        printf("%.6f\n", x1);
-        printf("%.6f\n", x2);
+        printf("2\n%.6f\n%.6f\n", x1, x2);
     }
 
     return 0;

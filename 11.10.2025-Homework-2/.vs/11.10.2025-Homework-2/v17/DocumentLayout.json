@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82AAAEAC-7B44-4074-8318-BF9CDD9D3833}|Task1_3\\Task1_3.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task1_3\\Task1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{82AAAEAC-7B44-4074-8318-BF9CDD9D3833}|Task1_3\\Task1_3.vcxproj|solutionrelative:Task1_3\\Task1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AF41C189-0FBF-4F70-930B-A7D5A1346173}|Task6\\Task6.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task6\\Task6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF41C189-0FBF-4F70-930B-A7D5A1346173}|Task6\\Task6.vcxproj|solutionrelative:Task6\\Task6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8827CC87-056A-40F3-A658-44859C068DDD}|Task1_2\\Task1_2.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task1_2\\Task1_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8827CC87-056A-40F3-A658-44859C068DDD}|Task1_2\\Task1_2.vcxproj|solutionrelative:Task1_2\\Task1_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC73652-49A9-461E-A849-203708A1A517}|Task3\\Task3.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task3\\Task3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6DC73652-49A9-461E-A849-203708A1A517}|Task3\\Task3.vcxproj|solutionrelative:Task3\\Task3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{82AAAEAC-7B44-4074-8318-BF9CDD9D3833}|Task1_3\\Task1_3.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task1_3\\Task1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82AAAEAC-7B44-4074-8318-BF9CDD9D3833}|Task1_3\\Task1_3.vcxproj|solutionrelative:Task1_3\\Task1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF41C189-0FBF-4F70-930B-A7D5A1346173}|Task6\\Task6.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task6\\Task6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF41C189-0FBF-4F70-930B-A7D5A1346173}|Task6\\Task6.vcxproj|solutionrelative:Task6\\Task6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6DC73652-49A9-461E-A849-203708A1A517}|Task3\\Task3.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task3\\Task3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DC73652-49A9-461E-A849-203708A1A517}|Task3\\Task3.vcxproj|solutionrelative:Task3\\Task3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EBACD3E-A43E-49A1-9593-55EF44656692}|Task5\\Task5.vcxproj|C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task5\\Task5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Task1_3.cpp",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task1_3\\Task1_3.cpp",
               "RelativeDocumentMoniker": "Task1_3\\Task1_3.cpp",
@@ -63,19 +63,21 @@
               "RelativeToolTip": "Task1_2\\Task1_2.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-12T20:34:20.133Z"
+              "WhenOpened": "2025-10-12T20:34:20.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Task6.cpp",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task6\\Task6.cpp",
               "RelativeDocumentMoniker": "Task6\\Task6.cpp",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task6\\Task6.cpp",
               "RelativeToolTip": "Task6\\Task6.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-08T11:37:46.091Z"
+              "WhenOpened": "2025-10-08T11:37:46.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Task3.cpp",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\2025-cpp\\11.10.2025-Homework-2\\Task3\\Task3.cpp",
               "RelativeDocumentMoniker": "Task3\\Task3.cpp",
